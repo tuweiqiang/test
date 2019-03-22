@@ -1,0 +1,87 @@
+﻿/*通用样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, 
+form,fieldset,input,textarea,p,blockquote,th,td { 
+    padding: 0; 
+    margin: 0; 
+} 
+table { border-collapse: collapse; border-spacing: 0;}
+fieldset,img { border: 0;}   
+address,caption,cite,code,dfn,em,strong,th,var { font-weight: normal;font-style: normal;} 
+ol,ul {list-style: none;} 
+caption,th { text-align: left;} 
+h1,h2,h3,h4,h5,h6 { font-weight: normal;font-size: 100%;} 
+a, ins {text-decoration: none;color: #000;}
+abbr,acronym {  border: 0;}
+.center{margin: 0 auto;width: 988px;}
+.clr:after{content: '';display: block;clear: both;}
+
+/*页面头部*/
+#thead{height: 145px;background-color:#A3565C;}
+#thead .TOP .left-logo{float: left;padding-top: 37px;}
+/*#thead .TOP .right-nav{float: right;}*/
+#thead .TOP .right-nav p{padding-top: 38px;padding-left: 590px;}
+#thead .TOP .right-nav p a{color: #fff;}
+#thead .TOP .right-nav p a:hover{color: red;}
+#thead .TOP .right-nav .buttom-nav{padding-top: 48px;}
+#thead .TOP .right-nav .buttom-nav li a{color: #fff;font-weight: bold;font-size: 20px;}
+#thead .TOP .right-nav .buttom-nav li{float: left;padding: 9px 25px;}
+#thead .TOP .right-nav .buttom-nav #act{background-color: #fff;border-radius: 5px 5px 0px 0px;}
+#thead .TOP .right-nav .buttom-nav #act>a{color: #000000;}
+#thead .TOP .right-nav .buttom-nav li:hover{background-color: #fff;border-radius: 5px 5px 0px 0px;}
+#thead .TOP .right-nav .buttom-nav li:hover a{color: #000;}
+
+/*轮播图*/
+/*#body #banner{width: 1583px;height: 740px;overflow: hidden;position: relative;margin: 0 auto;}
+#body #banner #lists{width: 10881px;position: absolute ;z-index: 1;}
+#body #banner #lists li{float: left;}
+#body #banner #lists li img{display:inline-block;width: 1583px;height: 740px;}
+#body #banner #prov{color: #6C6364;font-size: 48px;font-weight: bold;cursor: pointer;position: absolute;left: 100px;top:350px;z-index: 2;}
+#body #banner #next{color: #6C6364;font-size: 48px;font-weight: bold;cursor: pointer;position: absolute;right: 100px;top:350px;z-index: 2;}*/
+#body #slider{width: 100%;height: 730px;position: relative;overflow: hidden;margin: 0 auto;}
+#body #slider ul{width: 500%;position: absolute;left: 0;top: 0;}
+#body #slider ul li{width: 100%;height: 730px;background: url(../img/1shouye_02.jpg) no-repeat center center;float: left;}
+#body #slider ul li:nth-child(2){background-image: url(../img/2changpin_02.jpg);}
+#body #slider ul li:nth-child(3){background-image: url(../img/3style_03.jpg);}
+#body #slider ul li:nth-child(4){background-image: url(../img/4youhui_02.jpg);}
+#body #slider ul li:nth-child(5){background-image: url(../img/1shouye_02.jpg);}
+#body #slider ol{width: 88px;height: 22px;background: rgba(0,0,0,0.7);position: absolute;bottom: 50px;left: 50%;margin-left: -64px;padding: 0 20px;border-radius: 11px;}
+#body #slider ol li{width: 12px;height: 12px;background: rgba(255,255,255,0.5);float: left;margin: 5px;text-align: center;line-height: 22px;border-radius: 50%;cursor: pointer;}
+#body #slider .current{background: #fff;}
+#body #slider i{position: absolute;top: 50%;margin-top: -40px;cursor: pointer;display: none;}
+#body #slider .left{left: 120px;}
+#body #slider .right{right: 120px;}
+#body #slider:hover i{display: block;}
+
+/*产品展示*/
+.Product-show #top-show{text-align: center;border-bottom: 1px solid #000000;margin: 100px 0 0 0;font-size: 23px;font-weight: 600;}
+.Product-show .wehz{height: 80px;}
+.Product-show #top-show span{display: inline-block;border: 1px solid #000000;border-bottom: 1px solid #FFFFFF;margin-bottom: -1px;padding: 12px 38px;}
+.Product-show .show-right{float: right;font-size: 19px;margin: 40px 0 0 0;font-weight: 600;}
+.Product-show .wehz2{display: inline-block;position: absolute;left: 46%;font-weight: 600;font-size: 20px;}
+.box1{background-color: #F8F4E9;height: 376px;border: 1px solid #000000;margin-bottom: 38px;}
+.Product-show .box1 .box1-a{float: left;margin: 20px;}
+.Product-show .box1 .box1-a1{float: right;margin: 20px;}
+.Product-show .box1 .box1-b{text-align: center;color: #926A51;display: inline-block;margin: 135px 88px 0px 88px;font-weight: 700;font-size: 22px;line-height: 35px;}
+.Product-show .box1 .box1-b #box{font-weight: 700;font-size: 32px;}
+
+/*风格展示*/
+.Product-show .show-picture{width: 988px;}
+.Product-show .show-picture ul li{float: left;margin:0 0 26px 0;position: relative;}
+.Product-show .show-picture ul .show-picture1{margin: 0 26px;}
+.Product-show .show-picture ul li #aaa{display: inline-block;width: 310px;height: 30px;text-align: center;line-height: 30px;background: rgba(173,173,173,0.7);position: absolute;left: 0;bottom:4px;}
+
+/*优惠活动*/
+.Product-show .show-picture2{width: 988px;float: left;}
+.Product-show .show-picture2 div{display: inline-block;width: 310px;margin: 0 14px 0px 0px;}
+.Product-show .show-picture2 .show-picture3 img{margin-top: 20px;}
+.Product-show .show-picture2 #activ{width: 310px;height: 145px;background-color: #EAE0D7;color: #8D694F;font-size: 24px;font-weight: 700;text-align: center;display: inline-block;}
+.Product-show .show-picture2 #activ span{display: inline-block;padding-top: 48px;}
+
+/*页脚*/
+#tfooter{margin-top: 100px;}
+#tfooter .footer1{height: 23px;background: url(../img/1首页_02.jpg) repeat-x;margin-bottom: -1px;}
+#tfooter .footer2{background-color: #A3565C;height: 330px;text-align: center;color: #fff;font-size: 20px;line-height: 38px;}
+#tfooter .footer2 img{padding-top: 10px;}
+#tfooter .footer3{height: 130px;background-color: #86434A;text-align: center;color: #fff;font-size: 20px;line-height: 38px;padding-top: 20px;cursor: pointer;}
+
+

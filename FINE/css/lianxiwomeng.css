@@ -1,0 +1,8 @@
+#tbody {margin-top: 120px;}
+#body #tbody .h3{width: 988px; margin: 0 auto;}
+#body #tbody .h3 h3{ width: 112px;height: 40px;text-align: center;line-height: 40px;font-size: 20px;background-color: #EDEDED;/*position:absolute;left: 297px;top: 225px;*/ border-radius: 8px 8px 0 0;}
+#body #tbody #relation .bigBoss .small>li{margin-left: 50px;line-height: 33px;}
+#body #tbody #relation .bigBoss .small li{float: left;}
+#body #tbody #relation .bigBoss .small li h2{font-size: 18px;font-weight: 600;}
+#body #tbody #relation{border: 1px solid #A0A0A0;/*position: relative;*/}
+#body #tbody #relation .bigBoss>li{margin: 40px 0px 40px 0px;}

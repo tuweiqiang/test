@@ -1,0 +1,24 @@
+/*产品预览及数据*/
+
+.preview_Datas>.content {
+	width: 450px;
+}
+
+.preview_Datas .bigPic img {
+	width: 360px;
+}
+
+
+/*右侧数据*/
+
+.preview_Datas>ul {
+	width: 520px;
+}
+
+/*其他商品数据*/
+#porductDatas>aside{
+	width:170px;
+}
+#porductDatas>section{
+	width:780px;
+}

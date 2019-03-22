@@ -1,0 +1,16 @@
+#tbody .company{margin-top: 120px;}
+#tbody .company .company-left{float: left;}
+#tbody .company .company-right{float: right;}
+.h31{font-size: 22px;color: #F61C66;}
+#h32{margin-top: -6px;}
+#tbody .company .company-left{line-height: 38px;font-size: 18px;}
+#tbody .company .company-left ul{margin-top: 40px;}
+#tbody .company .company-left li a:hover{color: #A0A0A0;}
+#tbody .company .company-left ul span{display: block;width: 180px;height: 1px;background-color: #A0A0A0;margin: 24px 0;}
+
+#tbody .company .company-right p,li{line-height: 38px;color: #5A5A5A;}
+#tbody .company .company-right .ppp{margin-top: 40px;}
+#tbody .company .company-right p{margin: 32px 0;}
+#tbody .company .company-right li{list-style: disc;margin-left: 20px;}
+
+

@@ -1,0 +1,136 @@
+/******************* 样式重置 **********************/
+
+body,
+hr,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*合并表格边框*/
+
+table,
+td,
+tr,
+th {
+	border-collapse: collapse;
+}
+
+
+/*img在盒子中有下边距*/
+
+img {
+	vertical-align: middle;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+address,
+code,
+em {
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*常用属性*/
+
+.fB {
+	font-weight: bold;
+}
+
+.f14px {
+	font-size: 14px;
+}
+
+.lf {
+	float: left;
+}
+
+.rf {
+	float: right;
+}
+
+.re {
+	position: relative;
+}
+
+.ab {
+	position: absolute;
+}
+
+.of {
+	overflow: hidden;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+
+/*盒模型*/
+
+.box-sizing {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*清除浮动*/
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+/*全局设置*/
+
+body {
+	font: 12px Helvetica, Arial, "Helvetica Neue", "Microsoft yahei", "SimHei", sans-serif;
+	color: #6b6974;
+}
+
+a:hover {
+	color: #6b6974;
+}
+
